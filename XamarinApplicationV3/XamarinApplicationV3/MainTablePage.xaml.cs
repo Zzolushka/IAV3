@@ -17,16 +17,24 @@ namespace XamarinApplicationV3
         {
             Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("NzEzOTBAMzEzNjJlMzQyZTMwb2ZIQXUwcXpPY2NTRDFCaFc1aCtjdHpWcGhDcExjNlVwbnFxY2xMWWFiUT0=");
             InitializeComponent();
-            dataGrid.GridStyle.AlternatingRowColor = Color.Fuschia;
-            dataGrid.GridStyle = new CustomDataGridStyle();
+            this.SetDataGridsOptions();
         }
 
-         
-            private void DataGrid_ColumnResizing(object sender, GridResizingEventArgs e)
+        private void SetDataGridsOptions()
+        {
+            dataGrid.GridStyle.AlternatingRowColor = Color.Fuschia;
+            dataGrid.GridStyle = new CustomDataGridStyle();
+            dataGrid.HeaderRowHeight = 0;
+            dataGrid.Columns[0].Width = 0;
+        }
+
+        private void DataGrid_ColumnResizing(object sender, GridResizingEventArgs e)
         {
             //Code to end resizing if ColumnIndex is 2
             if (e.Index == 2)
+            {
                 e.Cancel = true;
+            }
             if (e.Index == 1)
                 e.Cancel = true;
         }
@@ -36,12 +44,15 @@ namespace XamarinApplicationV3
     {
         public CustomDataGridStyle()
         {
-
+           
         }
 
         public override Color GetAlternatingRowBackgroundColor()
         {
             return Color.LightYellow;
         }
+
     }
+
+   
 }

@@ -1137,20 +1137,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mashi\\.nuget\\packages\\": {}
+    "C:\\Users\\Пупсик\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mashi\\source\\repos\\XamarinApplicationV3\\XamarinApplicationV3\\XamarinApplicationV3.Android\\XamarinApplicationV3.Android.csproj",
+      "projectUniqueName": "D:\\Projects\\IAV3\\XamarinApplicationV3\\XamarinApplicationV3.Android\\XamarinApplicationV3.Android.csproj",
       "projectName": "XamarinApplicationV3.Android",
-      "projectPath": "C:\\Users\\mashi\\source\\repos\\XamarinApplicationV3\\XamarinApplicationV3\\XamarinApplicationV3.Android\\XamarinApplicationV3.Android.csproj",
-      "packagesPath": "C:\\Users\\mashi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mashi\\source\\repos\\XamarinApplicationV3\\XamarinApplicationV3\\XamarinApplicationV3.Android\\obj\\",
+      "projectPath": "D:\\Projects\\IAV3\\XamarinApplicationV3\\XamarinApplicationV3.Android\\XamarinApplicationV3.Android.csproj",
+      "packagesPath": "C:\\Users\\Пупсик\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\IAV3\\XamarinApplicationV3\\XamarinApplicationV3.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\mashi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Пупсик\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1163,8 +1163,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\mashi\\source\\repos\\XamarinApplicationV3\\XamarinApplicationV3\\XamarinApplicationV3\\XamarinApplicationV3.csproj": {
-              "projectPath": "C:\\Users\\mashi\\source\\repos\\XamarinApplicationV3\\XamarinApplicationV3\\XamarinApplicationV3\\XamarinApplicationV3.csproj"
+            "D:\\Projects\\IAV3\\XamarinApplicationV3\\XamarinApplicationV3\\XamarinApplicationV3.csproj": {
+              "projectPath": "D:\\Projects\\IAV3\\XamarinApplicationV3\\XamarinApplicationV3\\XamarinApplicationV3.csproj"
             }
           }
         }
