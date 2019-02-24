@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:Syncfusion="clr-namespace:Syncfusion.SfDataGrid.XForms;assembly=Syncfusion.SfDataGrid.XForms"
+             xmlns:local="clr-namespace:XamarinApplicationV3"
+             x:Class="XamarinApplicationV3.MainTablePage">
+ 
+        <ContentPage.BindingContext>
+        <local:OrderInfoRepository x:Name="viewModel" />
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+
+        <Syncfusion:SfDataGrid x:Name="dataGrid"
+                               AllowResizingColumn="True"
+                               ColumnResizing="DataGrid_ColumnResizing"
+                               ColumnSizer="LastColumnFill"
+                               ScrollingMode="Line"
+                               ItemsSource="{Binding OrderInfoCollection}">
+        </Syncfusion:SfDataGrid>
+    </ContentPage.Content>
+      
+</ContentPage>

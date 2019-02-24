@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinApplicationV3.FirstPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Clicked="GetScanResult" Text="Сканировать" />
+            <Label x:Name="ResultLabael" Text="Тутачки будет результат" ></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

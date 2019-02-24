@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinApplicationV3.TablePage"
+             xmlns:local="clr-namespace:XamarinApplicationV3"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Black" >
+            <Grid x:Name="HeaderGrid" BackgroundColor="Black" ColumnSpacing="1" HeightRequest="125" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                    <ColumnDefinition Width="1*" x:Name="headergridcolumn1"></ColumnDefinition>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <StackLayout BackgroundColor="White" Margin="1">
+
+                    <Button FlexLayout.Grow="10" BackgroundColor="Black" Clicked="HideAndShowColumn"></Button>
+                    <Button BackgroundColor="Red"
+                                 CornerRadius="1"
+                                 WidthRequest="20"
+                                 HeightRequest="20"
+                                 VerticalOptions="Start"
+                                 HorizontalOptions="End" 
+                                 Clicked="HideAndShowColumn"
+                                
+                        />
+                    <Label FlexLayout.Grow="90" Grid.Column="0" Text ="№ г/п" HorizontalOptions="Fill" BackgroundColor="White" HorizontalTextAlignment="Center" Margin="1" x:Name="column4" FontSize="Medium" MaxLines="5" ></Label>
+                </StackLayout>
+                <Label  Grid.Column="1" Text ="Наименование конструктивынх элементов и инженерных систем" HorizontalOptions="Fill" BackgroundColor="White" HorizontalTextAlignment="Center" Margin="1" x:Name="column" FontSize="Medium" ></Label>
+                <Label Grid.Column="2" Text ="Описание конструктивынх элементов и инженерных систем" HorizontalOptions="Fill" BackgroundColor="White" HorizontalTextAlignment="Center" Margin="1" x:Name="column1" FontSize="Medium" ></Label>
+                <Label Grid.Column="3" Text ="Описание технического состояния, признаки износа, готовности" HorizontalOptions="Fill" BackgroundColor="White" HorizontalTextAlignment="Center" Margin="1" x:Name="column2" FontSize="Medium" ></Label>
+                <Label Grid.Column="4" Text ="% Износа" HorizontalOptions="Fill" BackgroundColor="White" HorizontalTextAlignment="Center" Margin="1" x:Name="column3" FontSize="Medium"   ></Label>
+            </Grid>
+
+
+            
+                
+           
+            <StackLayout >
+                <local:CustomListView  ItemsSource="{Binding MyItems}" BackgroundColor="Black" HasUnevenRows="true" x:Name="listViewm" >
+
+                    <ListView.ItemTemplate>
+                        <DataTemplate >
+
+                            <ViewCell Appearing="Cell_OnAppearing" >
+                                <Grid BackgroundColor="Black" x:Name="grid" ColumnSpacing="1">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                                        <ColumnDefinition Width="1*" x:Name="gridcolumn1"></ColumnDefinition>
+                                        <ColumnDefinition Width="1*" ></ColumnDefinition>
+                                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+
+
+                                    <Label Grid.Column="0" Text ="{Binding Number}" HorizontalOptions="Fill" BackgroundColor="White" HorizontalTextAlignment="Center" Margin="1" x:Name="column4" FontSize="Micro"></Label>
+                                    <Label Grid.Column="1" Text ="{Binding Material}" HorizontalOptions="Fill" BackgroundColor="White" HorizontalTextAlignment="Center" Margin="1" x:Name="column" FontSize="Micro" ></Label>
+                                    <Label Grid.Column="2" Text ="{Binding СonstructiveItemsDescription}" HorizontalOptions="Fill" BackgroundColor="White" HorizontalTextAlignment="Center" Margin="1" x:Name="column1" FontSize="Micro" ></Label>
+                                    <Label Grid.Column="3" Text ="{Binding TechnicalConditionDescription}" HorizontalOptions="Fill" BackgroundColor="White" HorizontalTextAlignment="Center" Margin="1" x:Name="column2" FontSize="Micro" ></Label>
+                                    <Label Grid.Column="4" Text ="{Binding WearRate}" HorizontalOptions="Fill" BackgroundColor="White" HorizontalTextAlignment="Center" Margin="1" x:Name="column3"></Label>
+                                </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </local:CustomListView>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

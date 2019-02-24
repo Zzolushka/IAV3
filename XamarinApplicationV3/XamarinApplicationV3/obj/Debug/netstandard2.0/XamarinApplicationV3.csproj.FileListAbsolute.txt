@@ -1,0 +1,14 @@
+C:\Users\mashi\source\repos\XamarinApplicationV3\XamarinApplicationV3\XamarinApplicationV3\bin\Debug\netstandard2.0\XamarinApplicationV3.deps.json
+C:\Users\mashi\source\repos\XamarinApplicationV3\XamarinApplicationV3\XamarinApplicationV3\bin\Debug\netstandard2.0\XamarinApplicationV3.dll
+C:\Users\mashi\source\repos\XamarinApplicationV3\XamarinApplicationV3\XamarinApplicationV3\bin\Debug\netstandard2.0\XamarinApplicationV3.pdb
+C:\Users\mashi\source\repos\XamarinApplicationV3\XamarinApplicationV3\XamarinApplicationV3\obj\Debug\netstandard2.0\XamarinApplicationV3.csprojAssemblyReference.cache
+C:\Users\mashi\source\repos\XamarinApplicationV3\XamarinApplicationV3\XamarinApplicationV3\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\mashi\source\repos\XamarinApplicationV3\XamarinApplicationV3\XamarinApplicationV3\obj\Debug\netstandard2.0\XamarinApplicationV3.csproj.CoreCompileInputs.cache
+C:\Users\mashi\source\repos\XamarinApplicationV3\XamarinApplicationV3\XamarinApplicationV3\obj\Debug\netstandard2.0\XamarinApplicationV3.AssemblyInfoInputs.cache
+C:\Users\mashi\source\repos\XamarinApplicationV3\XamarinApplicationV3\XamarinApplicationV3\obj\Debug\netstandard2.0\XamarinApplicationV3.AssemblyInfo.cs
+C:\Users\mashi\source\repos\XamarinApplicationV3\XamarinApplicationV3\XamarinApplicationV3\obj\Debug\netstandard2.0\XamarinApplicationV3.dll
+C:\Users\mashi\source\repos\XamarinApplicationV3\XamarinApplicationV3\XamarinApplicationV3\obj\Debug\netstandard2.0\XamarinApplicationV3.pdb
+C:\Users\mashi\source\repos\XamarinApplicationV3\XamarinApplicationV3\XamarinApplicationV3\obj\Debug\netstandard2.0\TablePage.xaml.g.cs
+C:\Users\mashi\source\repos\XamarinApplicationV3\XamarinApplicationV3\XamarinApplicationV3\obj\Debug\netstandard2.0\FirstPage.xaml.g.cs
+C:\Users\mashi\source\repos\XamarinApplicationV3\XamarinApplicationV3\XamarinApplicationV3\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\mashi\source\repos\XamarinApplicationV3\XamarinApplicationV3\XamarinApplicationV3\obj\Debug\netstandard2.0\MainTablePage.xaml.g.cs
